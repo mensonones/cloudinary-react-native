@@ -78,17 +78,18 @@
   },
   "dependencies": {
     "@cloudinary/url-gen": "^1.10.0",
-    "expo-constants": "^17.0.0",
-    "expo-crypto": "^14.1.5",
+    "expo-constants": "^17.0.0 || ^18.0.0",
+    "expo-crypto": "^14.1.5 || ^15.0.0",
     "isomorphic-fetch": "^3.0.0",
     "util": "^0.10.4"
   },
   "peerDependencies": {
-    "expo": "^50.0.0 || ^51.0.0 || ^52.0.0 || ^53.0.0",
-    "expo-av": "^14.0.0 || ^15.0.0",
-    "expo-constants": "^16.0.0 || ^17.0.0",
-    "expo-modules-core": ">=1.11.14 <2.6.0",
-    "expo-video": "^2.0.0",
+    "expo": "^50.0.0 || ^51.0.0 || ^52.0.0 || ^53.0.0 || ^54.0.0",
+    "expo-av": "^14.0.0 || ^15.0.0 || ^16.0.0",
+    "expo-constants": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "expo-crypto": "^14.0.0 || ^15.0.0",
+    "expo-modules-core": ">=1.11.14 <4.0.0",
+    "expo-video": "^2.0.0 || ^3.0.0",
     "react": "^18.0.0 || ^19.0.0",
     "react-native": ">=0.79.0"
   },
@@ -107,7 +108,7 @@
   "engines": {
     "node": ">= 18.0.0"
   },
-  "packageManager": "^yarn@1.22.15",
+  "packageManager": "yarn@1.22.22",
   "jest": {
     "preset": "react-native",
     "setupFilesAfterEnv": ["<rootDir>/jest-setup.js"],
